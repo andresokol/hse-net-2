@@ -33,7 +33,7 @@ def _route_path_to_str(graph: models.Graph, route_path):
     node_ids = []
     for point in route_path:
         node_ids.append(graph.nodes[point].node_id)
-    return '[' + ' ,'.join(node_ids) + ']'
+    return '[' + ', '.join(node_ids) + ']'
 
 
 def dump_routes(graph: models.Graph, routes: tp.List[models.Route], name: str):
