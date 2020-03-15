@@ -42,5 +42,7 @@ if __name__ == '__main__':
     parser.add_argument('-s', '--source-node-id', help='source node id to visualize')
     parser.add_argument('-d', '--destination-node-id', help='destination node id to visualize')
     args = parser.parse_args()
-    print(args)
+    print('Parsed arguments:')
+    for argname, argvalue in args._get_kwargs():
+        print(argname, '=', argvalue)
     main(args)
