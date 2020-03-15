@@ -11,7 +11,7 @@ ROUTES_HEADERS = ['Node 1 (id)', 'Node 2 (id)', 'Path type', 'Path', 'Delay (mks
 
 
 def dump_topo(graph: models.Graph, name: str):
-    with open(f'{name}_topo.csv', 'w') as file:
+    with open(name + '_topo.csv', 'w') as file:
         writer = csv.writer(file)
         writer.writerow(TOPO_HEADERS)
 
@@ -25,6 +25,7 @@ def dump_topo(graph: models.Graph, name: str):
                 node_b.node_id, node_b.label, node_b.lon, node_b.lat,
                 int(edge.length_km), int(models.km_to_mks(edge.length_km))
             ])
+    print('Written topology to file', name + '_topo.csv')
 
 
 def _route_path_to_str(graph: models.Graph, route_path):
@@ -37,7 +38,7 @@ def _route_path_to_str(graph: models.Graph, route_path):
 
 
 def dump_routes(graph: models.Graph, routes: tp.List[models.Route], name: str):
-    with open(f'{name}_routes.csv', 'w') as file:
+    with open(name + '_routes.csv', 'w') as file:
         writer = csv.writer(file)
         writer.writerow(ROUTES_HEADERS)
 
@@ -47,3 +48,4 @@ def dump_routes(graph: models.Graph, routes: tp.List[models.Route], name: str):
                 _route_path_to_str(graph, route.path),
                 int(route.delay) if route.delay else ''
             ])
+    print('Written routes to file', name + '_routes.csv')

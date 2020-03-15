@@ -1,29 +1,50 @@
-import typing as tp
-from copy import deepcopy
+import argparse
 
-from as_net_hw2 import parsers, algo, models, dumpers, visualize
+from as_net_hw2 import parsers, algo, dumpers, visualize
 
 DEMO_PATH = 'demo/Abvt.graphml.xml'
 
 
-def main(name: str, find_reserve: bool):
-    graph = parsers.parse_graphml(DEMO_PATH)
+def main(args):
+    graph = parsers.parse_graphml(args.file_name)
     print('Parsed graph:', graph)
-    dumpers.dump_topo(graph, name)
+    dumpers.dump_topo(graph, args.file_name)
 
     dist, next_vertex = algo.floyd_warshall(graph)
     routes = []
+
+    visualize_route = None
+    visualize_route_reserve = None
     for i in range(graph.node_cnt):
         for j in range(graph.node_cnt):
             if i == j:
                 continue
             direct_route = algo.extract_route(graph, i, j, dist, next_vertex)
             routes.append(direct_route)
-            routes.append(algo.find_reserve_route(graph, i, j, direct_route.path))
 
-    dumpers.dump_routes(graph, routes, name)
-    visualize.visualize(graph, 'demo.html', routes[0], routes[1])
+            if args.build_reserve:
+                routes.append(algo.find_reserve_route(graph, i, j, direct_route.path))
+
+    dumpers.dump_routes(graph, routes, args.file_name)
+
+    if args.source_node_id is not None and args.destination_node_id is not None:
+        start_idx = graph.nodes_idx[args.source_node_id]
+        dest_idx = graph.nodes_idx[args.destination_node_id]
+        direct_route = algo.extract_route(graph, start_idx, dest_idx, dist, next_vertex)
+        reserve_route = None
+        if args.build_reserve:
+            reserve_route = algo.find_reserve_route(graph, start_idx, dest_idx, direct_route.path)
+
+        visualize.visualize(graph, args.file_name + '_demo.html', direct_route, reserve_route)
 
 
 if __name__ == '__main__':
-    main("demo", False)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-t', '--file-name', required=True,
+                        help='filename to parse, .gml or .graphml')
+    parser.add_argument('-r', '--build-reserve', action='store_true', help='build reserve routes')
+    parser.add_argument('-s', '--source-node-id', help='source node id to visualize')
+    parser.add_argument('-d', '--destination-node-id', help='destination node id to visualize')
+    args = parser.parse_args()
+    print(args)
+    main(args)

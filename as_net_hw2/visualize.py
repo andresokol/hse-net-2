@@ -59,7 +59,7 @@ def _vis_route(graph: models.Graph, route: models.Route, is_reserve=False):
         [{" ,".join(d)}],
         {{}},
         {{
-            strokeColor: '{ "#FF0000AA" if is_reserve else "#000000" }',
+            strokeColor: '{"#FF0000AA" if is_reserve else "#000000"}',
             strokeWidth: 6,
         }}
     )
@@ -70,7 +70,12 @@ def visualize(graph: models.Graph, filename: str, route: models.Route,
               reserve_route: tp.Optional[models.Route] = None):
     code_lines = []
     for node in graph.nodes:
-        code_lines.append(_vis_node(node, node.node_id == route.path[0] or node.node_id == route.path[-1]))
+        code_lines.append(
+            _vis_node(
+                node,
+                node.node_id == route.path[0] or node.node_id == route.path[-1],
+            )
+        )
     for edge in graph.edges:
         code_lines.append(_vis_edge(graph, edge))
     if reserve_route:
@@ -79,3 +84,5 @@ def visualize(graph: models.Graph, filename: str, route: models.Route,
 
     with open(filename, 'w') as file:
         file.write(HTML_TEMPLATE % '\n'.join(code_lines))
+
+    print('Visualization available at file', filename)
