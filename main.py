@@ -2,8 +2,6 @@ import argparse
 
 from as_net_hw2 import parsers, algo, dumpers, visualize
 
-DEMO_PATH = 'demo/Abvt.graphml.xml'
-
 
 def main(args):
     graph = parsers.parse_graphml(args.file_name)
@@ -13,8 +11,6 @@ def main(args):
     dist, next_vertex = algo.floyd_warshall(graph)
     routes = []
 
-    visualize_route = None
-    visualize_route_reserve = None
     for i in range(graph.node_cnt):
         for j in range(graph.node_cnt):
             if i == j:

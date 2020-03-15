@@ -1,0 +1,925 @@
+Node 1 (id),Node 2 (id),Path type,Path,Delay (mks)
+n0,n1,main,"[n0, n7, n6, n1]",1589
+n0,n1,reserve,"[n0, n4, n1]",4512
+n0,n2,main,"[n0, n2]",4185
+n0,n2,reserve,"[n0, n7, n6, n1, n22, n15, n16, n18, n19, n20, n10, n2]",44419
+n0,n3,main,"[n0, n2, n3]",8862
+n0,n3,reserve,"[n0, n7, n6, n1, n22, n15, n16, n18, n19, n20, n10, n3]",46474
+n0,n4,main,"[n0, n4]",3044
+n0,n4,reserve,"[n0, n7, n6, n1, n4]",3057
+n0,n5,main,"[n0, n5]",28313
+n0,n5,reserve,"[n0, n7, n6, n1, n5]",28326
+n0,n6,main,"[n0, n7, n6]",966
+n0,n6,reserve,"[n0, n4, n1, n6]",5135
+n0,n7,main,"[n0, n7]",274
+n0,n7,reserve,"[n0, n4, n1, n6, n7]",5827
+n0,n8,main,"[n0, n7, n6, n1, n8]",29726
+n0,n8,reserve,"[n0, n5, n8]",30026
+n0,n9,main,"[n0, n7, n6, n1, n8, n9]",31474
+n0,n9,reserve,"[n0, n5, n12, n9]",32259
+n0,n10,main,"[n0, n2, n10]",9597
+n0,n10,reserve,"[n0, n7, n6, n1, n22, n15, n16, n18, n19, n20, n10]",39007
+n0,n12,main,"[n0, n5, n12]",29963
+n0,n12,reserve,"[n0, n7, n6, n1, n8, n9, n12]",33771
+n0,n13,main,"[n0, n2, n10, n13]",11338
+n0,n13,reserve,"[n0, n7, n6, n1, n22, n15, n16, n18, n19, n20, n10, n14, n13]",41548
+n0,n14,main,"[n0, n2, n10, n14]",10729
+n0,n14,reserve,"[n0, n7, n6, n1, n22, n15, n16, n18, n19, n20, n10, n13, n14]",42157
+n0,n15,main,"[n0, n7, n6, n1, n22, n15]",20474
+n0,n15,reserve,"[n0, n2, n10, n20, n19, n18, n16, n15]",28130
+n0,n16,main,"[n0, n7, n6, n1, n22, n15, n16]",21593
+n0,n16,reserve,"[n0, n2, n10, n20, n19, n18, n16]",27011
+n0,n17,main,"[n0, n2, n10, n20, n19, n18, n17]",62636
+n0,n17,reserve,no,
+n0,n18,main,"[n0, n2, n10, n20, n19, n18]",22874
+n0,n18,reserve,"[n0, n7, n6, n1, n22, n15, n16, n18]",25730
+n0,n19,main,"[n0, n2, n10, n20, n19]",20190
+n0,n19,reserve,"[n0, n7, n6, n1, n22, n15, n16, n18, n19]",28414
+n0,n20,main,"[n0, n2, n10, n20]",17434
+n0,n20,reserve,"[n0, n7, n6, n1, n22, n15, n16, n18, n19, n20]",31170
+n0,n21,main,"[n0, n2, n10, n20, n19, n18, n21]",30194
+n0,n21,reserve,no,
+n0,n22,main,"[n0, n7, n6, n1, n22]",7089
+n0,n22,reserve,"[n0, n2, n10, n20, n19, n18, n16, n15, n22]",41515
+n1,n0,main,"[n1, n6, n7, n0]",1589
+n1,n0,reserve,"[n1, n4, n0]",4512
+n1,n2,main,"[n1, n22, n15, n16, n18, n19, n20, n10, n2]",42830
+n1,n2,reserve,"[n1, n6, n7, n0, n2]",5774
+n1,n3,main,"[n1, n22, n15, n16, n18, n19, n20, n10, n3]",44885
+n1,n3,reserve,"[n1, n6, n7, n0, n2, n3]",10452
+n1,n4,main,"[n1, n4]",1468
+n1,n4,reserve,"[n1, n6, n7, n0, n4]",4633
+n1,n5,main,"[n1, n5]",26737
+n1,n5,reserve,"[n1, n8, n5]",29850
+n1,n6,main,"[n1, n6]",622
+n1,n6,reserve,"[n1, n4, n0, n7, n6]",5479
+n1,n7,main,"[n1, n6, n7]",1314
+n1,n7,reserve,"[n1, n4, n0, n7]",4787
+n1,n8,main,"[n1, n8]",28137
+n1,n8,reserve,"[n1, n5, n8]",28450
+n1,n9,main,"[n1, n8, n9]",29885
+n1,n9,reserve,"[n1, n5, n12, n9]",30683
+n1,n10,main,"[n1, n22, n15, n16, n18, n19, n20, n10]",37418
+n1,n10,reserve,"[n1, n6, n7, n0, n2, n10]",11186
+n1,n12,main,"[n1, n5, n12]",28387
+n1,n12,reserve,"[n1, n8, n9, n12]",32182
+n1,n13,main,"[n1, n22, n15, n16, n18, n19, n20, n10, n13]",39159
+n1,n13,reserve,"[n1, n6, n7, n0, n2, n10, n14, n13]",13727
+n1,n14,main,"[n1, n22, n15, n16, n18, n19, n20, n10, n14]",38550
+n1,n14,reserve,"[n1, n6, n7, n0, n2, n10, n13, n14]",14336
+n1,n15,main,"[n1, n22, n15]",18885
+n1,n15,reserve,"[n1, n6, n7, n0, n2, n10, n20, n19, n18, n16, n15]",29719
+n1,n16,main,"[n1, n22, n15, n16]",20004
+n1,n16,reserve,"[n1, n6, n7, n0, n2, n10, n20, n19, n18, n16]",28600
+n1,n17,main,"[n1, n22, n15, n16, n18, n17]",63902
+n1,n17,reserve,no,
+n1,n18,main,"[n1, n22, n15, n16, n18]",24141
+n1,n18,reserve,"[n1, n6, n7, n0, n2, n10, n20, n19, n18]",24463
+n1,n19,main,"[n1, n22, n15, n16, n18, n19]",26825
+n1,n19,reserve,"[n1, n6, n7, n0, n2, n10, n20, n19]",21780
+n1,n20,main,"[n1, n22, n15, n16, n18, n19, n20]",29581
+n1,n20,reserve,"[n1, n6, n7, n0, n2, n10, n20]",19023
+n1,n21,main,"[n1, n22, n15, n16, n18, n21]",31461
+n1,n21,reserve,no,
+n1,n22,main,"[n1, n22]",5500
+n1,n22,reserve,"[n1, n6, n7, n0, n2, n10, n20, n19, n18, n16, n15, n22]",43105
+n2,n0,main,"[n2, n0]",4185
+n2,n0,reserve,"[n2, n10, n20, n19, n18, n16, n15, n22, n1, n6, n7, n0]",44419
+n2,n1,main,"[n2, n10, n20, n19, n18, n16, n15, n22, n1]",42830
+n2,n1,reserve,"[n2, n0, n7, n6, n1]",5774
+n2,n3,main,"[n2, n3]",4677
+n2,n3,reserve,"[n2, n10, n3]",12879
+n2,n4,main,"[n2, n10, n20, n19, n18, n16, n15, n22, n1, n4]",44298
+n2,n4,reserve,"[n2, n0, n4]",7229
+n2,n5,main,"[n2, n10, n20, n19, n18, n16, n15, n22, n1, n5]",69567
+n2,n5,reserve,"[n2, n0, n5]",32498
+n2,n6,main,"[n2, n10, n20, n19, n18, n16, n15, n22, n1, n6]",43452
+n2,n6,reserve,"[n2, n0, n7, n6]",5152
+n2,n7,main,"[n2, n10, n20, n19, n18, n16, n15, n22, n1, n6, n7]",44145
+n2,n7,reserve,"[n2, n0, n7]",4459
+n2,n8,main,"[n2, n10, n20, n19, n18, n16, n15, n22, n1, n8]",70967
+n2,n8,reserve,"[n2, n0, n5, n8]",34211
+n2,n9,main,"[n2, n10, n20, n19, n18, n16, n15, n22, n1, n8, n9]",72716
+n2,n9,reserve,"[n2, n0, n5, n12, n9]",36445
+n2,n10,main,"[n2, n10]",5412
+n2,n10,reserve,"[n2, n3, n10]",12144
+n2,n12,main,"[n2, n10, n20, n19, n18, n16, n15, n22, n1, n5, n12]",71217
+n2,n12,reserve,"[n2, n0, n7, n6, n1, n8, n9, n12]",37956
+n2,n13,main,"[n2, n10, n13]",7153
+n2,n13,reserve,"[n2, n3, n10, n14, n13]",14685
+n2,n14,main,"[n2, n10, n14]",6544
+n2,n14,reserve,"[n2, n3, n10, n13, n14]",15294
+n2,n15,main,"[n2, n10, n20, n19, n18, n16, n15]",23945
+n2,n15,reserve,"[n2, n0, n7, n6, n1, n22, n15]",24660
+n2,n16,main,"[n2, n10, n20, n19, n18, n16]",22826
+n2,n16,reserve,"[n2, n0, n7, n6, n1, n22, n15, n16]",25778
+n2,n17,main,"[n2, n10, n20, n19, n18, n17]",58450
+n2,n17,reserve,no,
+n2,n18,main,"[n2, n10, n20, n19, n18]",18689
+n2,n18,reserve,"[n2, n0, n7, n6, n1, n22, n15, n16, n18]",29915
+n2,n19,main,"[n2, n10, n20, n19]",16005
+n2,n19,reserve,"[n2, n0, n7, n6, n1, n22, n15, n16, n18, n19]",32599
+n2,n20,main,"[n2, n10, n20]",13249
+n2,n20,reserve,"[n2, n0, n7, n6, n1, n22, n15, n16, n18, n19, n20]",35356
+n2,n21,main,"[n2, n10, n20, n19, n18, n21]",26009
+n2,n21,reserve,no,
+n2,n22,main,"[n2, n10, n20, n19, n18, n16, n15, n22]",37330
+n2,n22,reserve,"[n2, n0, n7, n6, n1, n22]",11274
+n3,n0,main,"[n3, n2, n0]",8862
+n3,n0,reserve,"[n3, n10, n20, n19, n18, n16, n15, n22, n1, n6, n7, n0]",46474
+n3,n1,main,"[n3, n10, n20, n19, n18, n16, n15, n22, n1]",44885
+n3,n1,reserve,"[n3, n2, n0, n7, n6, n1]",10452
+n3,n2,main,"[n3, n2]",4677
+n3,n2,reserve,"[n3, n10, n2]",12879
+n3,n4,main,"[n3, n10, n20, n19, n18, n16, n15, n22, n1, n4]",46353
+n3,n4,reserve,"[n3, n2, n0, n4]",11907
+n3,n5,main,"[n3, n10, n20, n19, n18, n16, n15, n22, n1, n5]",71622
+n3,n5,reserve,"[n3, n2, n0, n5]",37176
+n3,n6,main,"[n3, n10, n20, n19, n18, n16, n15, n22, n1, n6]",45507
+n3,n6,reserve,"[n3, n2, n0, n7, n6]",9829
+n3,n7,main,"[n3, n10, n20, n19, n18, n16, n15, n22, n1, n6, n7]",46199
+n3,n7,reserve,"[n3, n2, n0, n7]",9137
+n3,n8,main,"[n3, n10, n20, n19, n18, n16, n15, n22, n1, n8]",73022
+n3,n8,reserve,"[n3, n2, n0, n5, n8]",38889
+n3,n9,main,"[n3, n10, n20, n19, n18, n16, n15, n22, n1, n8, n9]",74770
+n3,n9,reserve,"[n3, n2, n0, n5, n12, n9]",41122
+n3,n10,main,"[n3, n10]",7466
+n3,n10,reserve,"[n3, n2, n10]",10090
+n3,n12,main,"[n3, n10, n20, n19, n18, n16, n15, n22, n1, n5, n12]",73272
+n3,n12,reserve,"[n3, n2, n0, n7, n6, n1, n8, n9, n12]",42634
+n3,n13,main,"[n3, n10, n13]",9207
+n3,n13,reserve,"[n3, n2, n10, n14, n13]",12630
+n3,n14,main,"[n3, n10, n14]",8599
+n3,n14,reserve,"[n3, n2, n10, n13, n14]",13239
+n3,n15,main,"[n3, n10, n20, n19, n18, n16, n15]",25999
+n3,n15,reserve,"[n3, n2, n0, n7, n6, n1, n22, n15]",29337
+n3,n16,main,"[n3, n10, n20, n19, n18, n16]",24880
+n3,n16,reserve,"[n3, n2, n0, n7, n6, n1, n22, n15, n16]",30456
+n3,n17,main,"[n3, n10, n20, n19, n18, n17]",60505
+n3,n17,reserve,no,
+n3,n18,main,"[n3, n10, n20, n19, n18]",20743
+n3,n18,reserve,"[n3, n2, n0, n7, n6, n1, n22, n15, n16, n18]",34593
+n3,n19,main,"[n3, n10, n20, n19]",18060
+n3,n19,reserve,"[n3, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19]",37277
+n3,n20,main,"[n3, n10, n20]",15303
+n3,n20,reserve,"[n3, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19, n20]",40033
+n3,n21,main,"[n3, n10, n20, n19, n18, n21]",28063
+n3,n21,reserve,no,
+n3,n22,main,"[n3, n10, n20, n19, n18, n16, n15, n22]",39385
+n3,n22,reserve,"[n3, n2, n0, n7, n6, n1, n22]",15952
+n4,n0,main,"[n4, n0]",3044
+n4,n0,reserve,"[n4, n1, n6, n7, n0]",3057
+n4,n1,main,"[n4, n1]",1468
+n4,n1,reserve,"[n4, n0, n7, n6, n1]",4633
+n4,n2,main,"[n4, n1, n22, n15, n16, n18, n19, n20, n10, n2]",44298
+n4,n2,reserve,"[n4, n0, n2]",7229
+n4,n3,main,"[n4, n1, n22, n15, n16, n18, n19, n20, n10, n3]",46353
+n4,n3,reserve,"[n4, n0, n2, n3]",11907
+n4,n5,main,"[n4, n1, n5]",28205
+n4,n5,reserve,"[n4, n0, n5]",31357
+n4,n6,main,"[n4, n1, n6]",2090
+n4,n6,reserve,"[n4, n0, n7, n6]",4011
+n4,n7,main,"[n4, n1, n6, n7]",2782
+n4,n7,reserve,"[n4, n0, n7]",3319
+n4,n8,main,"[n4, n1, n8]",29605
+n4,n8,reserve,"[n4, n0, n5, n8]",33071
+n4,n9,main,"[n4, n1, n8, n9]",31353
+n4,n9,reserve,"[n4, n0, n5, n12, n9]",35304
+n4,n10,main,"[n4, n1, n22, n15, n16, n18, n19, n20, n10]",38886
+n4,n10,reserve,"[n4, n0, n2, n10]",12642
+n4,n12,main,"[n4, n1, n5, n12]",29855
+n4,n12,reserve,"[n4, n0, n7, n6, n1, n8, n9, n12]",36816
+n4,n13,main,"[n4, n1, n22, n15, n16, n18, n19, n20, n10, n13]",40627
+n4,n13,reserve,"[n4, n0, n2, n10, n14, n13]",15183
+n4,n14,main,"[n4, n1, n22, n15, n16, n18, n19, n20, n10, n14]",40018
+n4,n14,reserve,"[n4, n0, n2, n10, n13, n14]",15792
+n4,n15,main,"[n4, n1, n22, n15]",20353
+n4,n15,reserve,"[n4, n0, n2, n10, n20, n19, n18, n16, n15]",31175
+n4,n16,main,"[n4, n1, n22, n15, n16]",21472
+n4,n16,reserve,"[n4, n0, n2, n10, n20, n19, n18, n16]",30056
+n4,n17,main,"[n4, n1, n22, n15, n16, n18, n17]",65370
+n4,n17,reserve,no,
+n4,n18,main,"[n4, n1, n22, n15, n16, n18]",25609
+n4,n18,reserve,"[n4, n0, n2, n10, n20, n19, n18]",25919
+n4,n19,main,"[n4, n1, n22, n15, n16, n18, n19]",28293
+n4,n19,reserve,"[n4, n0, n2, n10, n20, n19]",23235
+n4,n20,main,"[n4, n1, n22, n15, n16, n18, n19, n20]",31049
+n4,n20,reserve,"[n4, n0, n2, n10, n20]",20479
+n4,n21,main,"[n4, n1, n22, n15, n16, n18, n21]",32929
+n4,n21,reserve,no,
+n4,n22,main,"[n4, n1, n22]",6968
+n4,n22,reserve,"[n4, n0, n2, n10, n20, n19, n18, n16, n15, n22]",44560
+n5,n0,main,"[n5, n0]",28313
+n5,n0,reserve,"[n5, n1, n6, n7, n0]",28326
+n5,n1,main,"[n5, n1]",26737
+n5,n1,reserve,"[n5, n8, n1]",29850
+n5,n2,main,"[n5, n1, n22, n15, n16, n18, n19, n20, n10, n2]",69567
+n5,n2,reserve,"[n5, n0, n2]",32498
+n5,n3,main,"[n5, n1, n22, n15, n16, n18, n19, n20, n10, n3]",71622
+n5,n3,reserve,"[n5, n0, n2, n3]",37176
+n5,n4,main,"[n5, n1, n4]",28205
+n5,n4,reserve,"[n5, n0, n4]",31357
+n5,n6,main,"[n5, n1, n6]",27359
+n5,n6,reserve,"[n5, n0, n7, n6]",29280
+n5,n7,main,"[n5, n1, n6, n7]",28051
+n5,n7,reserve,"[n5, n0, n7]",28587
+n5,n8,main,"[n5, n8]",1713
+n5,n8,reserve,"[n5, n12, n9, n8]",5695
+n5,n9,main,"[n5, n8, n9]",3461
+n5,n9,reserve,"[n5, n12, n9]",3946
+n5,n10,main,"[n5, n1, n22, n15, n16, n18, n19, n20, n10]",64155
+n5,n10,reserve,"[n5, n0, n2, n10]",37910
+n5,n12,main,"[n5, n12]",1650
+n5,n12,reserve,"[n5, n8, n9, n12]",5758
+n5,n13,main,"[n5, n1, n22, n15, n16, n18, n19, n20, n10, n13]",65896
+n5,n13,reserve,"[n5, n0, n2, n10, n14, n13]",40451
+n5,n14,main,"[n5, n1, n22, n15, n16, n18, n19, n20, n10, n14]",65287
+n5,n14,reserve,"[n5, n0, n2, n10, n13, n14]",41060
+n5,n15,main,"[n5, n1, n22, n15]",45622
+n5,n15,reserve,"[n5, n0, n2, n10, n20, n19, n18, n16, n15]",56443
+n5,n16,main,"[n5, n1, n22, n15, n16]",46741
+n5,n16,reserve,"[n5, n0, n2, n10, n20, n19, n18, n16]",55324
+n5,n17,main,"[n5, n1, n22, n15, n16, n18, n17]",90639
+n5,n17,reserve,no,
+n5,n18,main,"[n5, n1, n22, n15, n16, n18]",50878
+n5,n18,reserve,"[n5, n0, n2, n10, n20, n19, n18]",51187
+n5,n19,main,"[n5, n1, n22, n15, n16, n18, n19]",53562
+n5,n19,reserve,"[n5, n0, n2, n10, n20, n19]",48503
+n5,n20,main,"[n5, n1, n22, n15, n16, n18, n19, n20]",56318
+n5,n20,reserve,"[n5, n0, n2, n10, n20]",45747
+n5,n21,main,"[n5, n1, n22, n15, n16, n18, n21]",58198
+n5,n21,reserve,no,
+n5,n22,main,"[n5, n1, n22]",32237
+n5,n22,reserve,"[n5, n0, n2, n10, n20, n19, n18, n16, n15, n22]",69828
+n6,n0,main,"[n6, n7, n0]",966
+n6,n0,reserve,"[n6, n1, n4, n0]",5135
+n6,n1,main,"[n6, n1]",622
+n6,n1,reserve,"[n6, n7, n0, n4, n1]",5479
+n6,n2,main,"[n6, n1, n22, n15, n16, n18, n19, n20, n10, n2]",43452
+n6,n2,reserve,"[n6, n7, n0, n2]",5152
+n6,n3,main,"[n6, n1, n22, n15, n16, n18, n19, n20, n10, n3]",45507
+n6,n3,reserve,"[n6, n7, n0, n2, n3]",9829
+n6,n4,main,"[n6, n1, n4]",2090
+n6,n4,reserve,"[n6, n7, n0, n4]",4011
+n6,n5,main,"[n6, n1, n5]",27359
+n6,n5,reserve,"[n6, n7, n0, n5]",29280
+n6,n7,main,"[n6, n7]",692
+n6,n7,reserve,"[n6, n1, n4, n0, n7]",5409
+n6,n8,main,"[n6, n1, n8]",28759
+n6,n8,reserve,"[n6, n7, n0, n5, n8]",30993
+n6,n9,main,"[n6, n1, n8, n9]",30507
+n6,n9,reserve,"[n6, n7, n0, n5, n12, n9]",33226
+n6,n10,main,"[n6, n1, n22, n15, n16, n18, n19, n20, n10]",38040
+n6,n10,reserve,"[n6, n7, n0, n2, n10]",10564
+n6,n12,main,"[n6, n1, n5, n12]",29009
+n6,n12,reserve,"[n6, n7, n0, n5, n8, n9, n12]",35038
+n6,n13,main,"[n6, n1, n22, n15, n16, n18, n19, n20, n10, n13]",39781
+n6,n13,reserve,"[n6, n7, n0, n2, n10, n14, n13]",13105
+n6,n14,main,"[n6, n1, n22, n15, n16, n18, n19, n20, n10, n14]",39172
+n6,n14,reserve,"[n6, n7, n0, n2, n10, n13, n14]",13714
+n6,n15,main,"[n6, n1, n22, n15]",19507
+n6,n15,reserve,"[n6, n7, n0, n2, n10, n20, n19, n18, n16, n15]",29097
+n6,n16,main,"[n6, n1, n22, n15, n16]",20626
+n6,n16,reserve,"[n6, n7, n0, n2, n10, n20, n19, n18, n16]",27978
+n6,n17,main,"[n6, n1, n22, n15, n16, n18, n17]",64525
+n6,n17,reserve,no,
+n6,n18,main,"[n6, n1, n22, n15, n16, n18]",24763
+n6,n18,reserve,"[n6, n7, n0, n2, n10, n20, n19, n18]",23841
+n6,n19,main,"[n6, n1, n22, n15, n16, n18, n19]",27447
+n6,n19,reserve,"[n6, n7, n0, n2, n10, n20, n19]",21157
+n6,n20,main,"[n6, n1, n22, n15, n16, n18, n19, n20]",30203
+n6,n20,reserve,"[n6, n7, n0, n2, n10, n20]",18401
+n6,n21,main,"[n6, n1, n22, n15, n16, n18, n21]",32083
+n6,n21,reserve,no,
+n6,n22,main,"[n6, n1, n22]",6122
+n6,n22,reserve,"[n6, n7, n0, n2, n10, n20, n19, n18, n16, n15, n22]",42482
+n7,n0,main,"[n7, n0]",274
+n7,n0,reserve,"[n7, n6, n1, n4, n0]",5827
+n7,n1,main,"[n7, n6, n1]",1314
+n7,n1,reserve,"[n7, n0, n4, n1]",4787
+n7,n2,main,"[n7, n6, n1, n22, n15, n16, n18, n19, n20, n10, n2]",44145
+n7,n2,reserve,"[n7, n0, n2]",4459
+n7,n3,main,"[n7, n6, n1, n22, n15, n16, n18, n19, n20, n10, n3]",46199
+n7,n3,reserve,"[n7, n0, n2, n3]",9137
+n7,n4,main,"[n7, n6, n1, n4]",2782
+n7,n4,reserve,"[n7, n0, n4]",3319
+n7,n5,main,"[n7, n6, n1, n5]",28051
+n7,n5,reserve,"[n7, n0, n5]",28587
+n7,n6,main,"[n7, n6]",692
+n7,n6,reserve,"[n7, n0, n4, n1, n6]",5409
+n7,n8,main,"[n7, n6, n1, n8]",29452
+n7,n8,reserve,"[n7, n0, n5, n8]",30300
+n7,n9,main,"[n7, n6, n1, n8, n9]",31200
+n7,n9,reserve,"[n7, n0, n5, n12, n9]",32534
+n7,n10,main,"[n7, n6, n1, n22, n15, n16, n18, n19, n20, n10]",38733
+n7,n10,reserve,"[n7, n0, n2, n10]",9872
+n7,n12,main,"[n7, n6, n1, n5, n12]",29701
+n7,n12,reserve,"[n7, n0, n5, n8, n9, n12]",34345
+n7,n13,main,"[n7, n6, n1, n22, n15, n16, n18, n19, n20, n10, n13]",40474
+n7,n13,reserve,"[n7, n0, n2, n10, n14, n13]",12413
+n7,n14,main,"[n7, n6, n1, n22, n15, n16, n18, n19, n20, n10, n14]",39865
+n7,n14,reserve,"[n7, n0, n2, n10, n13, n14]",13021
+n7,n15,main,"[n7, n6, n1, n22, n15]",20200
+n7,n15,reserve,"[n7, n0, n2, n10, n20, n19, n18, n16, n15]",28404
+n7,n16,main,"[n7, n6, n1, n22, n15, n16]",21319
+n7,n16,reserve,"[n7, n0, n2, n10, n20, n19, n18, n16]",27286
+n7,n17,main,"[n7, n6, n1, n22, n15, n16, n18, n17]",65217
+n7,n17,reserve,no,
+n7,n18,main,"[n7, n6, n1, n22, n15, n16, n18]",25456
+n7,n18,reserve,"[n7, n0, n2, n10, n20, n19, n18]",23149
+n7,n19,main,"[n7, n6, n1, n22, n15, n16, n18, n19]",28139
+n7,n19,reserve,"[n7, n0, n2, n10, n20, n19]",20465
+n7,n20,main,"[n7, n6, n1, n22, n15, n16, n18, n19, n20]",30896
+n7,n20,reserve,"[n7, n0, n2, n10, n20]",17708
+n7,n21,main,"[n7, n6, n1, n22, n15, n16, n18, n21]",32775
+n7,n21,reserve,no,
+n7,n22,main,"[n7, n6, n1, n22]",6814
+n7,n22,reserve,"[n7, n0, n2, n10, n20, n19, n18, n16, n15, n22]",41790
+n8,n0,main,"[n8, n1, n6, n7, n0]",29726
+n8,n0,reserve,"[n8, n5, n0]",30026
+n8,n1,main,"[n8, n1]",28137
+n8,n1,reserve,"[n8, n5, n1]",28450
+n8,n2,main,"[n8, n1, n22, n15, n16, n18, n19, n20, n10, n2]",70967
+n8,n2,reserve,"[n8, n5, n0, n2]",34211
+n8,n3,main,"[n8, n1, n22, n15, n16, n18, n19, n20, n10, n3]",73022
+n8,n3,reserve,"[n8, n5, n0, n2, n3]",38889
+n8,n4,main,"[n8, n1, n4]",29605
+n8,n4,reserve,"[n8, n5, n0, n4]",33071
+n8,n5,main,"[n8, n5]",1713
+n8,n5,reserve,"[n8, n9, n12, n5]",5695
+n8,n6,main,"[n8, n1, n6]",28759
+n8,n6,reserve,"[n8, n5, n0, n7, n6]",30993
+n8,n7,main,"[n8, n1, n6, n7]",29452
+n8,n7,reserve,"[n8, n5, n0, n7]",30300
+n8,n9,main,"[n8, n9]",1748
+n8,n9,reserve,"[n8, n5, n12, n9]",5660
+n8,n10,main,"[n8, n1, n22, n15, n16, n18, n19, n20, n10]",65555
+n8,n10,reserve,"[n8, n5, n0, n2, n10]",39623
+n8,n12,main,"[n8, n5, n12]",3363
+n8,n12,reserve,"[n8, n9, n12]",4045
+n8,n13,main,"[n8, n1, n22, n15, n16, n18, n19, n20, n10, n13]",67296
+n8,n13,reserve,"[n8, n5, n0, n2, n10, n14, n13]",42164
+n8,n14,main,"[n8, n1, n22, n15, n16, n18, n19, n20, n10, n14]",66687
+n8,n14,reserve,"[n8, n5, n0, n2, n10, n13, n14]",42773
+n8,n15,main,"[n8, n1, n22, n15]",47022
+n8,n15,reserve,"[n8, n5, n0, n2, n10, n20, n19, n18, n16, n15]",58156
+n8,n16,main,"[n8, n1, n22, n15, n16]",48141
+n8,n16,reserve,"[n8, n5, n0, n2, n10, n20, n19, n18, n16]",57037
+n8,n17,main,"[n8, n1, n22, n15, n16, n18, n17]",92040
+n8,n17,reserve,no,
+n8,n18,main,"[n8, n1, n22, n15, n16, n18]",52278
+n8,n18,reserve,"[n8, n5, n0, n2, n10, n20, n19, n18]",52900
+n8,n19,main,"[n8, n1, n22, n15, n16, n18, n19]",54962
+n8,n19,reserve,"[n8, n5, n0, n2, n10, n20, n19]",50217
+n8,n20,main,"[n8, n1, n22, n15, n16, n18, n19, n20]",57718
+n8,n20,reserve,"[n8, n5, n0, n2, n10, n20]",47460
+n8,n21,main,"[n8, n1, n22, n15, n16, n18, n21]",59598
+n8,n21,reserve,no,
+n8,n22,main,"[n8, n1, n22]",33637
+n8,n22,reserve,"[n8, n5, n0, n2, n10, n20, n19, n18, n16, n15, n22]",71542
+n9,n0,main,"[n9, n8, n1, n6, n7, n0]",31474
+n9,n0,reserve,"[n9, n12, n5, n0]",32259
+n9,n1,main,"[n9, n8, n1]",29885
+n9,n1,reserve,"[n9, n12, n5, n1]",30683
+n9,n2,main,"[n9, n8, n1, n22, n15, n16, n18, n19, n20, n10, n2]",72716
+n9,n2,reserve,"[n9, n12, n5, n0, n2]",36445
+n9,n3,main,"[n9, n8, n1, n22, n15, n16, n18, n19, n20, n10, n3]",74770
+n9,n3,reserve,"[n9, n12, n5, n0, n2, n3]",41122
+n9,n4,main,"[n9, n8, n1, n4]",31353
+n9,n4,reserve,"[n9, n12, n5, n0, n4]",35304
+n9,n5,main,"[n9, n8, n5]",3461
+n9,n5,reserve,"[n9, n12, n5]",3946
+n9,n6,main,"[n9, n8, n1, n6]",30507
+n9,n6,reserve,"[n9, n12, n5, n0, n7, n6]",33226
+n9,n7,main,"[n9, n8, n1, n6, n7]",31200
+n9,n7,reserve,"[n9, n12, n5, n0, n7]",32534
+n9,n8,main,"[n9, n8]",1748
+n9,n8,reserve,"[n9, n12, n5, n8]",5660
+n9,n10,main,"[n9, n8, n1, n22, n15, n16, n18, n19, n20, n10]",67303
+n9,n10,reserve,"[n9, n12, n5, n0, n2, n10]",41857
+n9,n12,main,"[n9, n12]",2296
+n9,n12,reserve,"[n9, n8, n5, n12]",5111
+n9,n13,main,"[n9, n8, n1, n22, n15, n16, n18, n19, n20, n10, n13]",69044
+n9,n13,reserve,"[n9, n12, n5, n0, n2, n10, n14, n13]",44398
+n9,n14,main,"[n9, n8, n1, n22, n15, n16, n18, n19, n20, n10, n14]",68436
+n9,n14,reserve,"[n9, n12, n5, n0, n2, n10, n13, n14]",45007
+n9,n15,main,"[n9, n8, n1, n22, n15]",48771
+n9,n15,reserve,"[n9, n12, n5, n0, n2, n10, n20, n19, n18, n16, n15]",60390
+n9,n16,main,"[n9, n8, n1, n22, n15, n16]",49890
+n9,n16,reserve,"[n9, n12, n5, n0, n2, n10, n20, n19, n18, n16]",59271
+n9,n17,main,"[n9, n8, n1, n22, n15, n16, n18, n17]",93788
+n9,n17,reserve,no,
+n9,n18,main,"[n9, n8, n1, n22, n15, n16, n18]",54026
+n9,n18,reserve,"[n9, n12, n5, n0, n2, n10, n20, n19, n18]",55134
+n9,n19,main,"[n9, n8, n1, n22, n15, n16, n18, n19]",56710
+n9,n19,reserve,"[n9, n12, n5, n0, n2, n10, n20, n19]",52450
+n9,n20,main,"[n9, n8, n1, n22, n15, n16, n18, n19, n20]",59467
+n9,n20,reserve,"[n9, n12, n5, n0, n2, n10, n20]",49694
+n9,n21,main,"[n9, n8, n1, n22, n15, n16, n18, n21]",61346
+n9,n21,reserve,no,
+n9,n22,main,"[n9, n8, n1, n22]",35385
+n9,n22,reserve,"[n9, n12, n5, n0, n2, n10, n20, n19, n18, n16, n15, n22]",73775
+n10,n0,main,"[n10, n2, n0]",9597
+n10,n0,reserve,"[n10, n20, n19, n18, n16, n15, n22, n1, n6, n7, n0]",39007
+n10,n1,main,"[n10, n20, n19, n18, n16, n15, n22, n1]",37418
+n10,n1,reserve,"[n10, n2, n0, n7, n6, n1]",11186
+n10,n2,main,"[n10, n2]",5412
+n10,n2,reserve,"[n10, n3, n2]",12144
+n10,n3,main,"[n10, n3]",7466
+n10,n3,reserve,"[n10, n2, n3]",10090
+n10,n4,main,"[n10, n20, n19, n18, n16, n15, n22, n1, n4]",38886
+n10,n4,reserve,"[n10, n2, n0, n4]",12642
+n10,n5,main,"[n10, n20, n19, n18, n16, n15, n22, n1, n5]",64155
+n10,n5,reserve,"[n10, n2, n0, n5]",37910
+n10,n6,main,"[n10, n20, n19, n18, n16, n15, n22, n1, n6]",38040
+n10,n6,reserve,"[n10, n2, n0, n7, n6]",10564
+n10,n7,main,"[n10, n20, n19, n18, n16, n15, n22, n1, n6, n7]",38733
+n10,n7,reserve,"[n10, n2, n0, n7]",9872
+n10,n8,main,"[n10, n20, n19, n18, n16, n15, n22, n1, n8]",65555
+n10,n8,reserve,"[n10, n2, n0, n5, n8]",39623
+n10,n9,main,"[n10, n20, n19, n18, n16, n15, n22, n1, n8, n9]",67303
+n10,n9,reserve,"[n10, n2, n0, n5, n12, n9]",41857
+n10,n12,main,"[n10, n20, n19, n18, n16, n15, n22, n1, n5, n12]",65805
+n10,n12,reserve,"[n10, n2, n0, n7, n6, n1, n8, n9, n12]",43369
+n10,n13,main,"[n10, n13]",1741
+n10,n13,reserve,"[n10, n14, n13]",2540
+n10,n14,main,"[n10, n14]",1132
+n10,n14,reserve,"[n10, n13, n14]",3149
+n10,n15,main,"[n10, n20, n19, n18, n16, n15]",18532
+n10,n15,reserve,"[n10, n2, n0, n7, n6, n1, n22, n15]",30072
+n10,n16,main,"[n10, n20, n19, n18, n16]",17413
+n10,n16,reserve,"[n10, n2, n0, n7, n6, n1, n22, n15, n16]",31191
+n10,n17,main,"[n10, n20, n19, n18, n17]",53038
+n10,n17,reserve,no,
+n10,n18,main,"[n10, n20, n19, n18]",13277
+n10,n18,reserve,"[n10, n2, n0, n7, n6, n1, n22, n15, n16, n18]",35328
+n10,n19,main,"[n10, n20, n19]",10593
+n10,n19,reserve,"[n10, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19]",38011
+n10,n20,main,"[n10, n20]",7836
+n10,n20,reserve,"[n10, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19, n20]",40768
+n10,n21,main,"[n10, n20, n19, n18, n21]",20596
+n10,n21,reserve,no,
+n10,n22,main,"[n10, n20, n19, n18, n16, n15, n22]",31918
+n10,n22,reserve,"[n10, n2, n0, n7, n6, n1, n22]",16686
+n12,n0,main,"[n12, n5, n0]",29963
+n12,n0,reserve,"[n12, n9, n8, n1, n6, n7, n0]",33771
+n12,n1,main,"[n12, n5, n1]",28387
+n12,n1,reserve,"[n12, n9, n8, n1]",32182
+n12,n2,main,"[n12, n5, n1, n22, n15, n16, n18, n19, n20, n10, n2]",71217
+n12,n2,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2]",37956
+n12,n3,main,"[n12, n5, n1, n22, n15, n16, n18, n19, n20, n10, n3]",73272
+n12,n3,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2, n3]",42634
+n12,n4,main,"[n12, n5, n1, n4]",29855
+n12,n4,reserve,"[n12, n9, n8, n1, n6, n7, n0, n4]",36816
+n12,n5,main,"[n12, n5]",1650
+n12,n5,reserve,"[n12, n9, n8, n5]",5758
+n12,n6,main,"[n12, n5, n1, n6]",29009
+n12,n6,reserve,"[n12, n9, n8, n5, n0, n7, n6]",35038
+n12,n7,main,"[n12, n5, n1, n6, n7]",29701
+n12,n7,reserve,"[n12, n9, n8, n5, n0, n7]",34345
+n12,n8,main,"[n12, n5, n8]",3363
+n12,n8,reserve,"[n12, n9, n8]",4045
+n12,n9,main,"[n12, n9]",2296
+n12,n9,reserve,"[n12, n5, n8, n9]",5111
+n12,n10,main,"[n12, n5, n1, n22, n15, n16, n18, n19, n20, n10]",65805
+n12,n10,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2, n10]",43369
+n12,n13,main,"[n12, n5, n1, n22, n15, n16, n18, n19, n20, n10, n13]",67546
+n12,n13,reserve,no,
+n12,n14,main,"[n12, n5, n1, n22, n15, n16, n18, n19, n20, n10, n14]",66937
+n12,n14,reserve,no,
+n12,n15,main,"[n12, n5, n1, n22, n15]",47272
+n12,n15,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2, n10, n20, n19, n18, n16, n15]",61901
+n12,n16,main,"[n12, n5, n1, n22, n15, n16]",48391
+n12,n16,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2, n10, n20, n19, n18, n16]",60783
+n12,n17,main,"[n12, n5, n1, n22, n15, n16, n18, n17]",92289
+n12,n17,reserve,no,
+n12,n18,main,"[n12, n5, n1, n22, n15, n16, n18]",52528
+n12,n18,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2, n10, n20, n19, n18]",56646
+n12,n19,main,"[n12, n5, n1, n22, n15, n16, n18, n19]",55212
+n12,n19,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2, n10, n20, n19]",53962
+n12,n20,main,"[n12, n5, n1, n22, n15, n16, n18, n19, n20]",57968
+n12,n20,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2, n10, n20]",51205
+n12,n21,main,"[n12, n5, n1, n22, n15, n16, n18, n21]",59848
+n12,n21,reserve,no,
+n12,n22,main,"[n12, n5, n1, n22]",33887
+n12,n22,reserve,"[n12, n9, n8, n1, n6, n7, n0, n2, n10, n20, n19, n18, n16, n15, n22]",75287
+n13,n0,main,"[n13, n10, n2, n0]",11338
+n13,n0,reserve,"[n13, n14, n10, n20, n19, n18, n16, n15, n22, n1, n6, n7, n0]",41548
+n13,n1,main,"[n13, n10, n20, n19, n18, n16, n15, n22, n1]",39159
+n13,n1,reserve,"[n13, n14, n10, n2, n0, n7, n6, n1]",13727
+n13,n2,main,"[n13, n10, n2]",7153
+n13,n2,reserve,"[n13, n14, n10, n3, n2]",14685
+n13,n3,main,"[n13, n10, n3]",9207
+n13,n3,reserve,"[n13, n14, n10, n2, n3]",12630
+n13,n4,main,"[n13, n10, n20, n19, n18, n16, n15, n22, n1, n4]",40627
+n13,n4,reserve,"[n13, n14, n10, n2, n0, n4]",15183
+n13,n5,main,"[n13, n10, n20, n19, n18, n16, n15, n22, n1, n5]",65896
+n13,n5,reserve,"[n13, n14, n10, n2, n0, n5]",40451
+n13,n6,main,"[n13, n10, n20, n19, n18, n16, n15, n22, n1, n6]",39781
+n13,n6,reserve,"[n13, n14, n10, n2, n0, n7, n6]",13105
+n13,n7,main,"[n13, n10, n20, n19, n18, n16, n15, n22, n1, n6, n7]",40474
+n13,n7,reserve,"[n13, n14, n10, n2, n0, n7]",12413
+n13,n8,main,"[n13, n10, n20, n19, n18, n16, n15, n22, n1, n8]",67296
+n13,n8,reserve,"[n13, n14, n10, n2, n0, n5, n8]",42164
+n13,n9,main,"[n13, n10, n20, n19, n18, n16, n15, n22, n1, n8, n9]",69044
+n13,n9,reserve,"[n13, n14, n10, n2, n0, n5, n12, n9]",44398
+n13,n10,main,"[n13, n10]",1741
+n13,n10,reserve,"[n13, n14, n10]",2540
+n13,n12,main,"[n13, n10, n20, n19, n18, n16, n15, n22, n1, n5, n12]",67546
+n13,n12,reserve,no,
+n13,n14,main,"[n13, n14]",1408
+n13,n14,reserve,"[n13, n10, n14]",2873
+n13,n15,main,"[n13, n10, n20, n19, n18, n16, n15]",20273
+n13,n15,reserve,"[n13, n14, n10, n2, n0, n7, n6, n1, n22, n15]",32613
+n13,n16,main,"[n13, n10, n20, n19, n18, n16]",19154
+n13,n16,reserve,"[n13, n14, n10, n2, n0, n7, n6, n1, n22, n15, n16]",33732
+n13,n17,main,"[n13, n10, n20, n19, n18, n17]",54779
+n13,n17,reserve,no,
+n13,n18,main,"[n13, n10, n20, n19, n18]",15018
+n13,n18,reserve,"[n13, n14, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18]",37869
+n13,n19,main,"[n13, n10, n20, n19]",12334
+n13,n19,reserve,"[n13, n14, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19]",40552
+n13,n20,main,"[n13, n10, n20]",9577
+n13,n20,reserve,"[n13, n14, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19, n20]",43309
+n13,n21,main,"[n13, n10, n20, n19, n18, n21]",22337
+n13,n21,reserve,no,
+n13,n22,main,"[n13, n10, n20, n19, n18, n16, n15, n22]",33659
+n13,n22,reserve,"[n13, n14, n10, n2, n0, n7, n6, n1, n22]",19227
+n14,n0,main,"[n14, n10, n2, n0]",10729
+n14,n0,reserve,"[n14, n13, n10, n20, n19, n18, n16, n15, n22, n1, n6, n7, n0]",42157
+n14,n1,main,"[n14, n10, n20, n19, n18, n16, n15, n22, n1]",38550
+n14,n1,reserve,"[n14, n13, n10, n2, n0, n7, n6, n1]",14336
+n14,n2,main,"[n14, n10, n2]",6544
+n14,n2,reserve,"[n14, n13, n10, n3, n2]",15294
+n14,n3,main,"[n14, n10, n3]",8599
+n14,n3,reserve,"[n14, n13, n10, n2, n3]",13239
+n14,n4,main,"[n14, n10, n20, n19, n18, n16, n15, n22, n1, n4]",40018
+n14,n4,reserve,"[n14, n13, n10, n2, n0, n4]",15792
+n14,n5,main,"[n14, n10, n20, n19, n18, n16, n15, n22, n1, n5]",65287
+n14,n5,reserve,"[n14, n13, n10, n2, n0, n5]",41060
+n14,n6,main,"[n14, n10, n20, n19, n18, n16, n15, n22, n1, n6]",39172
+n14,n6,reserve,"[n14, n13, n10, n2, n0, n7, n6]",13714
+n14,n7,main,"[n14, n10, n20, n19, n18, n16, n15, n22, n1, n6, n7]",39865
+n14,n7,reserve,"[n14, n13, n10, n2, n0, n7]",13021
+n14,n8,main,"[n14, n10, n20, n19, n18, n16, n15, n22, n1, n8]",66687
+n14,n8,reserve,"[n14, n13, n10, n2, n0, n5, n8]",42773
+n14,n9,main,"[n14, n10, n20, n19, n18, n16, n15, n22, n1, n8, n9]",68436
+n14,n9,reserve,"[n14, n13, n10, n2, n0, n5, n12, n9]",45007
+n14,n10,main,"[n14, n10]",1132
+n14,n10,reserve,"[n14, n13, n10]",3149
+n14,n12,main,"[n14, n10, n20, n19, n18, n16, n15, n22, n1, n5, n12]",66937
+n14,n12,reserve,no,
+n14,n13,main,"[n14, n13]",1408
+n14,n13,reserve,"[n14, n10, n13]",2873
+n14,n15,main,"[n14, n10, n20, n19, n18, n16, n15]",19664
+n14,n15,reserve,"[n14, n13, n10, n2, n0, n7, n6, n1, n22, n15]",33222
+n14,n16,main,"[n14, n10, n20, n19, n18, n16]",18546
+n14,n16,reserve,"[n14, n13, n10, n2, n0, n7, n6, n1, n22, n15, n16]",34340
+n14,n17,main,"[n14, n10, n20, n19, n18, n17]",54170
+n14,n17,reserve,no,
+n14,n18,main,"[n14, n10, n20, n19, n18]",14409
+n14,n18,reserve,"[n14, n13, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18]",38477
+n14,n19,main,"[n14, n10, n20, n19]",11725
+n14,n19,reserve,"[n14, n13, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19]",41161
+n14,n20,main,"[n14, n10, n20]",8968
+n14,n20,reserve,"[n14, n13, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19, n20]",43918
+n14,n21,main,"[n14, n10, n20, n19, n18, n21]",21729
+n14,n21,reserve,no,
+n14,n22,main,"[n14, n10, n20, n19, n18, n16, n15, n22]",33050
+n14,n22,reserve,"[n14, n13, n10, n2, n0, n7, n6, n1, n22]",19836
+n15,n0,main,"[n15, n22, n1, n6, n7, n0]",20474
+n15,n0,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0]",28130
+n15,n1,main,"[n15, n22, n1]",18885
+n15,n1,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n7, n6, n1]",29719
+n15,n2,main,"[n15, n16, n18, n19, n20, n10, n2]",23945
+n15,n2,reserve,"[n15, n22, n1, n6, n7, n0, n2]",24660
+n15,n3,main,"[n15, n16, n18, n19, n20, n10, n3]",25999
+n15,n3,reserve,"[n15, n22, n1, n6, n7, n0, n2, n3]",29337
+n15,n4,main,"[n15, n22, n1, n4]",20353
+n15,n4,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n4]",31175
+n15,n5,main,"[n15, n22, n1, n5]",45622
+n15,n5,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n5]",56443
+n15,n6,main,"[n15, n22, n1, n6]",19507
+n15,n6,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n7, n6]",29097
+n15,n7,main,"[n15, n22, n1, n6, n7]",20200
+n15,n7,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n7]",28404
+n15,n8,main,"[n15, n22, n1, n8]",47022
+n15,n8,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n5, n8]",58156
+n15,n9,main,"[n15, n22, n1, n8, n9]",48771
+n15,n9,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n5, n12, n9]",60390
+n15,n10,main,"[n15, n16, n18, n19, n20, n10]",18532
+n15,n10,reserve,"[n15, n22, n1, n6, n7, n0, n2, n10]",30072
+n15,n12,main,"[n15, n22, n1, n5, n12]",47272
+n15,n12,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n7, n6, n1, n8, n9, n12]",61901
+n15,n13,main,"[n15, n16, n18, n19, n20, n10, n13]",20273
+n15,n13,reserve,"[n15, n22, n1, n6, n7, n0, n2, n10, n14, n13]",32613
+n15,n14,main,"[n15, n16, n18, n19, n20, n10, n14]",19664
+n15,n14,reserve,"[n15, n22, n1, n6, n7, n0, n2, n10, n13, n14]",33222
+n15,n16,main,"[n15, n16]",1118
+n15,n16,reserve,"[n15, n22, n1, n6, n7, n0, n2, n10, n20, n19, n18, n16]",47486
+n15,n17,main,"[n15, n16, n18, n17]",45017
+n15,n17,reserve,no,
+n15,n18,main,"[n15, n16, n18]",5255
+n15,n18,reserve,"[n15, n22, n1, n6, n7, n0, n2, n10, n20, n19, n18]",43349
+n15,n19,main,"[n15, n16, n18, n19]",7939
+n15,n19,reserve,"[n15, n22, n1, n6, n7, n0, n2, n10, n20, n19]",40665
+n15,n20,main,"[n15, n16, n18, n19, n20]",10695
+n15,n20,reserve,"[n15, n22, n1, n6, n7, n0, n2, n10, n20]",37909
+n15,n21,main,"[n15, n16, n18, n21]",12575
+n15,n21,reserve,no,
+n15,n22,main,"[n15, n22]",13385
+n15,n22,reserve,"[n15, n16, n18, n19, n20, n10, n2, n0, n7, n6, n1, n22]",35219
+n16,n0,main,"[n16, n15, n22, n1, n6, n7, n0]",21593
+n16,n0,reserve,"[n16, n18, n19, n20, n10, n2, n0]",27011
+n16,n1,main,"[n16, n15, n22, n1]",20004
+n16,n1,reserve,"[n16, n18, n19, n20, n10, n2, n0, n7, n6, n1]",28600
+n16,n2,main,"[n16, n18, n19, n20, n10, n2]",22826
+n16,n2,reserve,"[n16, n15, n22, n1, n6, n7, n0, n2]",25778
+n16,n3,main,"[n16, n18, n19, n20, n10, n3]",24880
+n16,n3,reserve,"[n16, n15, n22, n1, n6, n7, n0, n2, n3]",30456
+n16,n4,main,"[n16, n15, n22, n1, n4]",21472
+n16,n4,reserve,"[n16, n18, n19, n20, n10, n2, n0, n4]",30056
+n16,n5,main,"[n16, n15, n22, n1, n5]",46741
+n16,n5,reserve,"[n16, n18, n19, n20, n10, n2, n0, n5]",55324
+n16,n6,main,"[n16, n15, n22, n1, n6]",20626
+n16,n6,reserve,"[n16, n18, n19, n20, n10, n2, n0, n7, n6]",27978
+n16,n7,main,"[n16, n15, n22, n1, n6, n7]",21319
+n16,n7,reserve,"[n16, n18, n19, n20, n10, n2, n0, n7]",27286
+n16,n8,main,"[n16, n15, n22, n1, n8]",48141
+n16,n8,reserve,"[n16, n18, n19, n20, n10, n2, n0, n5, n8]",57037
+n16,n9,main,"[n16, n15, n22, n1, n8, n9]",49890
+n16,n9,reserve,"[n16, n18, n19, n20, n10, n2, n0, n5, n12, n9]",59271
+n16,n10,main,"[n16, n18, n19, n20, n10]",17413
+n16,n10,reserve,"[n16, n15, n22, n1, n6, n7, n0, n2, n10]",31191
+n16,n12,main,"[n16, n15, n22, n1, n5, n12]",48391
+n16,n12,reserve,"[n16, n18, n19, n20, n10, n2, n0, n7, n6, n1, n8, n9, n12]",60783
+n16,n13,main,"[n16, n18, n19, n20, n10, n13]",19154
+n16,n13,reserve,"[n16, n15, n22, n1, n6, n7, n0, n2, n10, n14, n13]",33732
+n16,n14,main,"[n16, n18, n19, n20, n10, n14]",18546
+n16,n14,reserve,"[n16, n15, n22, n1, n6, n7, n0, n2, n10, n13, n14]",34340
+n16,n15,main,"[n16, n15]",1118
+n16,n15,reserve,"[n16, n18, n19, n20, n10, n2, n0, n7, n6, n1, n22, n15]",47486
+n16,n17,main,"[n16, n18, n17]",43898
+n16,n17,reserve,no,
+n16,n18,main,"[n16, n18]",4136
+n16,n18,reserve,"[n16, n15, n22, n1, n6, n7, n0, n2, n10, n20, n19, n18]",44468
+n16,n19,main,"[n16, n18, n19]",6820
+n16,n19,reserve,"[n16, n15, n22, n1, n6, n7, n0, n2, n10, n20, n19]",41784
+n16,n20,main,"[n16, n18, n19, n20]",9577
+n16,n20,reserve,"[n16, n15, n22, n1, n6, n7, n0, n2, n10, n20]",39027
+n16,n21,main,"[n16, n18, n21]",11456
+n16,n21,reserve,no,
+n16,n22,main,"[n16, n15, n22]",14504
+n16,n22,reserve,"[n16, n18, n19, n20, n10, n2, n0, n7, n6, n1, n22]",34100
+n17,n0,main,"[n17, n18, n19, n20, n10, n2, n0]",62636
+n17,n0,reserve,no,
+n17,n1,main,"[n17, n18, n16, n15, n22, n1]",63902
+n17,n1,reserve,no,
+n17,n2,main,"[n17, n18, n19, n20, n10, n2]",58450
+n17,n2,reserve,no,
+n17,n3,main,"[n17, n18, n19, n20, n10, n3]",60505
+n17,n3,reserve,no,
+n17,n4,main,"[n17, n18, n16, n15, n22, n1, n4]",65370
+n17,n4,reserve,no,
+n17,n5,main,"[n17, n18, n16, n15, n22, n1, n5]",90639
+n17,n5,reserve,no,
+n17,n6,main,"[n17, n18, n16, n15, n22, n1, n6]",64525
+n17,n6,reserve,no,
+n17,n7,main,"[n17, n18, n16, n15, n22, n1, n6, n7]",65217
+n17,n7,reserve,no,
+n17,n8,main,"[n17, n18, n16, n15, n22, n1, n8]",92040
+n17,n8,reserve,no,
+n17,n9,main,"[n17, n18, n16, n15, n22, n1, n8, n9]",93788
+n17,n9,reserve,no,
+n17,n10,main,"[n17, n18, n19, n20, n10]",53038
+n17,n10,reserve,no,
+n17,n12,main,"[n17, n18, n16, n15, n22, n1, n5, n12]",92289
+n17,n12,reserve,no,
+n17,n13,main,"[n17, n18, n19, n20, n10, n13]",54779
+n17,n13,reserve,no,
+n17,n14,main,"[n17, n18, n19, n20, n10, n14]",54170
+n17,n14,reserve,no,
+n17,n15,main,"[n17, n18, n16, n15]",45017
+n17,n15,reserve,no,
+n17,n16,main,"[n17, n18, n16]",43898
+n17,n16,reserve,no,
+n17,n18,main,"[n17, n18]",39761
+n17,n18,reserve,no,
+n17,n19,main,"[n17, n18, n19]",42445
+n17,n19,reserve,no,
+n17,n20,main,"[n17, n18, n19, n20]",45201
+n17,n20,reserve,no,
+n17,n21,main,"[n17, n18, n21]",47081
+n17,n21,reserve,no,
+n17,n22,main,"[n17, n18, n16, n15, n22]",58402
+n17,n22,reserve,no,
+n18,n0,main,"[n18, n19, n20, n10, n2, n0]",22874
+n18,n0,reserve,"[n18, n16, n15, n22, n1, n6, n7, n0]",25730
+n18,n1,main,"[n18, n16, n15, n22, n1]",24141
+n18,n1,reserve,"[n18, n19, n20, n10, n2, n0, n7, n6, n1]",24463
+n18,n2,main,"[n18, n19, n20, n10, n2]",18689
+n18,n2,reserve,"[n18, n16, n15, n22, n1, n6, n7, n0, n2]",29915
+n18,n3,main,"[n18, n19, n20, n10, n3]",20743
+n18,n3,reserve,"[n18, n16, n15, n22, n1, n6, n7, n0, n2, n3]",34593
+n18,n4,main,"[n18, n16, n15, n22, n1, n4]",25609
+n18,n4,reserve,"[n18, n19, n20, n10, n2, n0, n4]",25919
+n18,n5,main,"[n18, n16, n15, n22, n1, n5]",50878
+n18,n5,reserve,"[n18, n19, n20, n10, n2, n0, n5]",51187
+n18,n6,main,"[n18, n16, n15, n22, n1, n6]",24763
+n18,n6,reserve,"[n18, n19, n20, n10, n2, n0, n7, n6]",23841
+n18,n7,main,"[n18, n16, n15, n22, n1, n6, n7]",25456
+n18,n7,reserve,"[n18, n19, n20, n10, n2, n0, n7]",23149
+n18,n8,main,"[n18, n16, n15, n22, n1, n8]",52278
+n18,n8,reserve,"[n18, n19, n20, n10, n2, n0, n5, n8]",52900
+n18,n9,main,"[n18, n16, n15, n22, n1, n8, n9]",54026
+n18,n9,reserve,"[n18, n19, n20, n10, n2, n0, n5, n12, n9]",55134
+n18,n10,main,"[n18, n19, n20, n10]",13277
+n18,n10,reserve,"[n18, n16, n15, n22, n1, n6, n7, n0, n2, n10]",35328
+n18,n12,main,"[n18, n16, n15, n22, n1, n5, n12]",52528
+n18,n12,reserve,"[n18, n19, n20, n10, n2, n0, n7, n6, n1, n8, n9, n12]",56646
+n18,n13,main,"[n18, n19, n20, n10, n13]",15018
+n18,n13,reserve,"[n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n14, n13]",37869
+n18,n14,main,"[n18, n19, n20, n10, n14]",14409
+n18,n14,reserve,"[n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n13, n14]",38477
+n18,n15,main,"[n18, n16, n15]",5255
+n18,n15,reserve,"[n18, n19, n20, n10, n2, n0, n7, n6, n1, n22, n15]",43349
+n18,n16,main,"[n18, n16]",4136
+n18,n16,reserve,"[n18, n19, n20, n10, n2, n0, n7, n6, n1, n22, n15, n16]",44468
+n18,n17,main,"[n18, n17]",39761
+n18,n17,reserve,no,
+n18,n19,main,"[n18, n19]",2683
+n18,n19,reserve,"[n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n20, n19]",45921
+n18,n20,main,"[n18, n19, n20]",5440
+n18,n20,reserve,"[n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n20]",43164
+n18,n21,main,"[n18, n21]",7319
+n18,n21,reserve,no,
+n18,n22,main,"[n18, n16, n15, n22]",18641
+n18,n22,reserve,"[n18, n19, n20, n10, n2, n0, n7, n6, n1, n22]",29963
+n19,n0,main,"[n19, n20, n10, n2, n0]",20190
+n19,n0,reserve,"[n19, n18, n16, n15, n22, n1, n6, n7, n0]",28414
+n19,n1,main,"[n19, n18, n16, n15, n22, n1]",26825
+n19,n1,reserve,"[n19, n20, n10, n2, n0, n7, n6, n1]",21780
+n19,n2,main,"[n19, n20, n10, n2]",16005
+n19,n2,reserve,"[n19, n18, n16, n15, n22, n1, n6, n7, n0, n2]",32599
+n19,n3,main,"[n19, n20, n10, n3]",18060
+n19,n3,reserve,"[n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n3]",37277
+n19,n4,main,"[n19, n18, n16, n15, n22, n1, n4]",28293
+n19,n4,reserve,"[n19, n20, n10, n2, n0, n4]",23235
+n19,n5,main,"[n19, n18, n16, n15, n22, n1, n5]",53562
+n19,n5,reserve,"[n19, n20, n10, n2, n0, n5]",48503
+n19,n6,main,"[n19, n18, n16, n15, n22, n1, n6]",27447
+n19,n6,reserve,"[n19, n20, n10, n2, n0, n7, n6]",21157
+n19,n7,main,"[n19, n18, n16, n15, n22, n1, n6, n7]",28139
+n19,n7,reserve,"[n19, n20, n10, n2, n0, n7]",20465
+n19,n8,main,"[n19, n18, n16, n15, n22, n1, n8]",54962
+n19,n8,reserve,"[n19, n20, n10, n2, n0, n5, n8]",50217
+n19,n9,main,"[n19, n18, n16, n15, n22, n1, n8, n9]",56710
+n19,n9,reserve,"[n19, n20, n10, n2, n0, n5, n12, n9]",52450
+n19,n10,main,"[n19, n20, n10]",10593
+n19,n10,reserve,"[n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n10]",38011
+n19,n12,main,"[n19, n18, n16, n15, n22, n1, n5, n12]",55212
+n19,n12,reserve,"[n19, n20, n10, n2, n0, n7, n6, n1, n8, n9, n12]",53962
+n19,n13,main,"[n19, n20, n10, n13]",12334
+n19,n13,reserve,"[n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n14, n13]",40552
+n19,n14,main,"[n19, n20, n10, n14]",11725
+n19,n14,reserve,"[n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n13, n14]",41161
+n19,n15,main,"[n19, n18, n16, n15]",7939
+n19,n15,reserve,"[n19, n20, n10, n2, n0, n7, n6, n1, n22, n15]",40665
+n19,n16,main,"[n19, n18, n16]",6820
+n19,n16,reserve,"[n19, n20, n10, n2, n0, n7, n6, n1, n22, n15, n16]",41784
+n19,n17,main,"[n19, n18, n17]",42445
+n19,n17,reserve,no,
+n19,n18,main,"[n19, n18]",2683
+n19,n18,reserve,"[n19, n20, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18]",45921
+n19,n20,main,"[n19, n20]",2756
+n19,n20,reserve,"[n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n20]",45848
+n19,n21,main,"[n19, n18, n21]",10003
+n19,n21,reserve,no,
+n19,n22,main,"[n19, n18, n16, n15, n22]",21325
+n19,n22,reserve,"[n19, n20, n10, n2, n0, n7, n6, n1, n22]",27280
+n20,n0,main,"[n20, n10, n2, n0]",17434
+n20,n0,reserve,"[n20, n19, n18, n16, n15, n22, n1, n6, n7, n0]",31170
+n20,n1,main,"[n20, n19, n18, n16, n15, n22, n1]",29581
+n20,n1,reserve,"[n20, n10, n2, n0, n7, n6, n1]",19023
+n20,n2,main,"[n20, n10, n2]",13249
+n20,n2,reserve,"[n20, n19, n18, n16, n15, n22, n1, n6, n7, n0, n2]",35356
+n20,n3,main,"[n20, n10, n3]",15303
+n20,n3,reserve,"[n20, n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n3]",40033
+n20,n4,main,"[n20, n19, n18, n16, n15, n22, n1, n4]",31049
+n20,n4,reserve,"[n20, n10, n2, n0, n4]",20479
+n20,n5,main,"[n20, n19, n18, n16, n15, n22, n1, n5]",56318
+n20,n5,reserve,"[n20, n10, n2, n0, n5]",45747
+n20,n6,main,"[n20, n19, n18, n16, n15, n22, n1, n6]",30203
+n20,n6,reserve,"[n20, n10, n2, n0, n7, n6]",18401
+n20,n7,main,"[n20, n19, n18, n16, n15, n22, n1, n6, n7]",30896
+n20,n7,reserve,"[n20, n10, n2, n0, n7]",17708
+n20,n8,main,"[n20, n19, n18, n16, n15, n22, n1, n8]",57718
+n20,n8,reserve,"[n20, n10, n2, n0, n5, n8]",47460
+n20,n9,main,"[n20, n19, n18, n16, n15, n22, n1, n8, n9]",59467
+n20,n9,reserve,"[n20, n10, n2, n0, n5, n12, n9]",49694
+n20,n10,main,"[n20, n10]",7836
+n20,n10,reserve,"[n20, n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n10]",40768
+n20,n12,main,"[n20, n19, n18, n16, n15, n22, n1, n5, n12]",57968
+n20,n12,reserve,"[n20, n10, n2, n0, n7, n6, n1, n8, n9, n12]",51205
+n20,n13,main,"[n20, n10, n13]",9577
+n20,n13,reserve,"[n20, n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n14, n13]",43309
+n20,n14,main,"[n20, n10, n14]",8968
+n20,n14,reserve,"[n20, n19, n18, n16, n15, n22, n1, n6, n7, n0, n2, n10, n13, n14]",43918
+n20,n15,main,"[n20, n19, n18, n16, n15]",10695
+n20,n15,reserve,"[n20, n10, n2, n0, n7, n6, n1, n22, n15]",37909
+n20,n16,main,"[n20, n19, n18, n16]",9577
+n20,n16,reserve,"[n20, n10, n2, n0, n7, n6, n1, n22, n15, n16]",39027
+n20,n17,main,"[n20, n19, n18, n17]",45201
+n20,n17,reserve,no,
+n20,n18,main,"[n20, n19, n18]",5440
+n20,n18,reserve,"[n20, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18]",43164
+n20,n19,main,"[n20, n19]",2756
+n20,n19,reserve,"[n20, n10, n2, n0, n7, n6, n1, n22, n15, n16, n18, n19]",45848
+n20,n21,main,"[n20, n19, n18, n21]",12760
+n20,n21,reserve,no,
+n20,n22,main,"[n20, n19, n18, n16, n15, n22]",24081
+n20,n22,reserve,"[n20, n10, n2, n0, n7, n6, n1, n22]",24523
+n21,n0,main,"[n21, n18, n19, n20, n10, n2, n0]",30194
+n21,n0,reserve,no,
+n21,n1,main,"[n21, n18, n16, n15, n22, n1]",31461
+n21,n1,reserve,no,
+n21,n2,main,"[n21, n18, n19, n20, n10, n2]",26009
+n21,n2,reserve,no,
+n21,n3,main,"[n21, n18, n19, n20, n10, n3]",28063
+n21,n3,reserve,no,
+n21,n4,main,"[n21, n18, n16, n15, n22, n1, n4]",32929
+n21,n4,reserve,no,
+n21,n5,main,"[n21, n18, n16, n15, n22, n1, n5]",58198
+n21,n5,reserve,no,
+n21,n6,main,"[n21, n18, n16, n15, n22, n1, n6]",32083
+n21,n6,reserve,no,
+n21,n7,main,"[n21, n18, n16, n15, n22, n1, n6, n7]",32775
+n21,n7,reserve,no,
+n21,n8,main,"[n21, n18, n16, n15, n22, n1, n8]",59598
+n21,n8,reserve,no,
+n21,n9,main,"[n21, n18, n16, n15, n22, n1, n8, n9]",61346
+n21,n9,reserve,no,
+n21,n10,main,"[n21, n18, n19, n20, n10]",20596
+n21,n10,reserve,no,
+n21,n12,main,"[n21, n18, n16, n15, n22, n1, n5, n12]",59848
+n21,n12,reserve,no,
+n21,n13,main,"[n21, n18, n19, n20, n10, n13]",22337
+n21,n13,reserve,no,
+n21,n14,main,"[n21, n18, n19, n20, n10, n14]",21729
+n21,n14,reserve,no,
+n21,n15,main,"[n21, n18, n16, n15]",12575
+n21,n15,reserve,no,
+n21,n16,main,"[n21, n18, n16]",11456
+n21,n16,reserve,no,
+n21,n17,main,"[n21, n18, n17]",47081
+n21,n17,reserve,no,
+n21,n18,main,"[n21, n18]",7319
+n21,n18,reserve,no,
+n21,n19,main,"[n21, n18, n19]",10003
+n21,n19,reserve,no,
+n21,n20,main,"[n21, n18, n19, n20]",12760
+n21,n20,reserve,no,
+n21,n22,main,"[n21, n18, n16, n15, n22]",25961
+n21,n22,reserve,no,
+n22,n0,main,"[n22, n1, n6, n7, n0]",7089
+n22,n0,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0]",41515
+n22,n1,main,"[n22, n1]",5500
+n22,n1,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0, n7, n6, n1]",43105
+n22,n2,main,"[n22, n15, n16, n18, n19, n20, n10, n2]",37330
+n22,n2,reserve,"[n22, n1, n6, n7, n0, n2]",11274
+n22,n3,main,"[n22, n15, n16, n18, n19, n20, n10, n3]",39385
+n22,n3,reserve,"[n22, n1, n6, n7, n0, n2, n3]",15952
+n22,n4,main,"[n22, n1, n4]",6968
+n22,n4,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0, n4]",44560
+n22,n5,main,"[n22, n1, n5]",32237
+n22,n5,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0, n5]",69828
+n22,n6,main,"[n22, n1, n6]",6122
+n22,n6,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0, n7, n6]",42482
+n22,n7,main,"[n22, n1, n6, n7]",6814
+n22,n7,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0, n7]",41790
+n22,n8,main,"[n22, n1, n8]",33637
+n22,n8,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0, n5, n8]",71542
+n22,n9,main,"[n22, n1, n8, n9]",35385
+n22,n9,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0, n5, n12, n9]",73775
+n22,n10,main,"[n22, n15, n16, n18, n19, n20, n10]",31918
+n22,n10,reserve,"[n22, n1, n6, n7, n0, n2, n10]",16686
+n22,n12,main,"[n22, n1, n5, n12]",33887
+n22,n12,reserve,"[n22, n15, n16, n18, n19, n20, n10, n2, n0, n7, n6, n1, n8, n9, n12]",75287
+n22,n13,main,"[n22, n15, n16, n18, n19, n20, n10, n13]",33659
+n22,n13,reserve,"[n22, n1, n6, n7, n0, n2, n10, n14, n13]",19227
+n22,n14,main,"[n22, n15, n16, n18, n19, n20, n10, n14]",33050
+n22,n14,reserve,"[n22, n1, n6, n7, n0, n2, n10, n13, n14]",19836
+n22,n15,main,"[n22, n15]",13385
+n22,n15,reserve,"[n22, n1, n6, n7, n0, n2, n10, n20, n19, n18, n16, n15]",35219
+n22,n16,main,"[n22, n15, n16]",14504
+n22,n16,reserve,"[n22, n1, n6, n7, n0, n2, n10, n20, n19, n18, n16]",34100
+n22,n17,main,"[n22, n15, n16, n18, n17]",58402
+n22,n17,reserve,no,
+n22,n18,main,"[n22, n15, n16, n18]",18641
+n22,n18,reserve,"[n22, n1, n6, n7, n0, n2, n10, n20, n19, n18]",29963
+n22,n19,main,"[n22, n15, n16, n18, n19]",21325
+n22,n19,reserve,"[n22, n1, n6, n7, n0, n2, n10, n20, n19]",27280
+n22,n20,main,"[n22, n15, n16, n18, n19, n20]",24081
+n22,n20,reserve,"[n22, n1, n6, n7, n0, n2, n10, n20]",24523
+n22,n21,main,"[n22, n15, n16, n18, n21]",25961
+n22,n21,reserve,no,
